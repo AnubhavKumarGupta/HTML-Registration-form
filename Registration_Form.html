@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form.</title>
+</head>
+<body>
+    <form>
+        <table border="8">
+            <h2>&ensp; &ensp; &ensp; &ensp; &ensp; Registration Form.</h2>
+
+            <tr>
+                <th><label>Name:</label></th>
+                <td><input type="text" required placeholder="Enter Name."></td>
+            </tr>
+
+            <tr>
+                <th><label>Mobile:</label></th>
+                <td><input type="number" required placeholder="Enter Mobile No."></td>
+            </tr>
+
+            <tr>
+                <th><label>Password:</label></th>
+                <td><input type="password" required placeholder="Enter Password."></td>
+            </tr>
+
+            <tr>
+                <th><label>E-mail:</label></th>
+                <td><input type="email" required placeholder="Enter Email."></td>
+            </tr>
+
+            <tr>
+                <th><label>Gender:</label></th>
+                <td>
+                    <label>Male</label>
+                    <input type="radio" value="Male" name="Gender">
+                    <label>Female</label>
+                    <input type="radio" value="Female" name="Gender">
+                    <label>Others</label>
+                    <input type="radio" value="Others" name="Gender">
+                </td>
+            </tr>
+
+            <tr>
+                <th><label>Technologies:</label></th>
+                <td>
+                    <label>Java</label>
+                    <input type="checkbox">
+                    <label>Python</label>
+                    <input type="checkbox">
+                    <label>HTML</label>
+                    <input type="checkbox">
+                    <label>CSS</label>
+                    <input type="checkbox">
+                    <label>JS</label>
+                    <input type="checkbox">
+                    <label>React JS</label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+            <tr>
+                <th><label>Date:</label></th>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <th><label>Time:</label></th>
+                <td><input type="time"></td>
+            </tr>
+
+            <tr>
+                <th><label>Upload File:</label></th>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <th><label>Color:</label></th>
+                <td><input type="color"></td>
+            </tr>
+
+            <tr>
+                <th><label for="country">Country:</label></th>
+                <td>
+                    <select id="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+
+
+
+        </table>
+
+        <br>
+        &ensp; &ensp; &ensp; &ensp; &ensp; 
+        <button type="submit">Submit</button>
+        &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; 
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
